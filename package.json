@@ -1,27 +1,22 @@
 {
-  "name": "seqburger",
+  "name": "node_what_todo",
   "version": "1.0.0",
-  "description": "A Sequelized Version of the Burger App",
+  "description": "-Node \r -Express \r -MySQL \r -Handlebars \r -Jquery",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Mtutak/sequelizedBurger.git"
-  },
-  "author": "Matt T",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Mtutak/sequelizedBurger/issues"
-  },
-  "homepage": "https://github.com/Mtutak/sequelizedBurger#readme",
   "dependencies": {
-    "body-parser": "^1.16.0",
-    "express": "^4.14.1",
-    "express-handlebars": "^3.0.0",
-    "method-override": "^2.3.7",
-    "mysql": "^2.13.0",
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "method-override": "^2.3.5",
+    "mysql": "^2.10.2",
     "sequelize": "^3.30.1"
+  },
+  "devDependencies": {
+    "handlebars-helper-css": "^0.1.0"
   }
 }
